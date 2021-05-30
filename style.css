@@ -1,0 +1,256 @@
+.first{
+    background: url('/assests/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width:1350px;
+}
+
+body{
+    background: url('/assests/tree.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotronn{
+
+  background: url('/assests/backy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    
+    
+    
+}
+
+.img-area{
+  background-image: url('/assests/backy.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(3px);
+}
+
+.imgg-area{
+  background-image: url('/assests/tree.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(1px);
+
+}
+
+.area{
+  z-index:2;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.row{
+    margin-top: 4%;
+}
+
+.heading{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 5rem;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.col img{
+    border-radius: 4%;
+}
+
+.row .image:hover{
+    opacity: 0.4;
+  transition: 0.6s;
+}
+
+
+.row .image1:hover{
+    opacity: 0.4;
+  transition: 0.6s;
+}
+
+
+
+
+.footer {
+    background: linear-gradient(to right, rgb(2, 2, 2), rgba(2, 2, 2, 0.8));
+    margin-top: 5%;
+}
+
+.footer h4{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    font-family:  'Nothing You Could Do', cursive;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5%;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 5%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+  .col-lg-2 a img:hover{
+    
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 1s;
+    
+  }
+
+  .col-lg-2 a h6:hover{
+    
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 1s;
+    
+  }
+
+  .col-lg-2:hover{
+    
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 1s;
+    
+  }
+
+ 
+
+  
+
+
+
+
+
+
+  @media (max-width: 700px ){
+
+    .jumbotron2{
+
+      margin-left: 0%;
+
+    
+    }
+
+    .cols .rows{
+      margin-left:0%; 
+    padding-left: 0%;
+    }
+
+    .coly{
+      display: none;
+    }
+
+    .carryon{
+      display: none;
+    }
+
+    .heading h1{
+      font-size: 6rem;
+      font-family: 'Eagle Lake', cursive;
+  }
+  
+
+ 
+
+  }
+
+  @media (min-width: 300px ){
+
+    .jumbotron2{
+
+      margin-left: 0%;
+
+    
+    }
+
+    .cols .rows{
+      margin-left:0%; 
+    padding-left: 0%;
+    }
+
+      
+
+
+   
+   
+   
+   
+ 
+ 
+ 
+ }
+
+
